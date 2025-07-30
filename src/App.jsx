@@ -13,6 +13,10 @@ import achieve from "./assets/text/achieve.png";
 import dreams from "./assets/text/dreams.png";
 import grow from "./assets/text/grow.png";
 import community from "./assets/text/community.png";
+import man from "./assets/man1.png";
+import group from "./assets/Group.png";
+import three from "./assets/three.png";
+import two from "./assets/two.png";
 
 // Animation Setup Functions
 const animateTextImages = (container) => {
@@ -120,83 +124,83 @@ const App = () => {
       <div ref={animatedContainerRef} className="relative h-100 w-50">
         <img
           className="absolute h-25 top-10"
-          src="src/assets/man1.png"
+          src={man}
           alt=""
         />
         <img
           className="absolute h-30 top-20 right-8"
-          src="src/assets/man1.png"
-          alt=""
+          src={man}
+          alt="Man"
         />
         <img
           className="absolute h-25 top-32 left-13"
-          src="src/assets/man1.png"
-          alt=""
+          src={man}
+          alt="Man"
         />
         <img
           className="absolute h-30 top-35 -right-10 opacity-60"
-          src="src/assets/man1.png"
-          alt=""
+          src={man}
+          alt="Man"
         />
         <img
           className="absolute h-20 top-40 -left-10 opacity-60"
-          src="src/assets/man1.png"
-          alt=""
+          src={man}
+          alt="Man"
         />
         <img
           className="absolute h-30 top-15 -left-30 opacity-60"
-          src="src/assets/Group.png"
-          alt=""
+          src={group}
+          alt="Group"
         />
         <img
           className="absolute h-25 top-70 -right-20 opacity-60"
-          src="src/assets/three.png"
-          alt=""
+          src={three}
+          alt="three"
         />
         <img
           className="absolute h-25 top-75 left-10 opacity-60"
-          src="src/assets/three.png"
-          alt=""
+          src={three}
+          alt="three"
         />
         <img
           className="absolute h-35 top-60 -left-30 opacity-60"
-          src="src/assets/two.png"
+          src={two}
           alt=""
         />
         <img
           className="absolute h-20 top-50 left-25 opacity-60"
-          src="src/assets/two.png"
+          src={two}
           alt=""
         />
         <img
           className="absolute h-20 top-80 left-25 opacity-60"
-          src="src/assets/two.png"
+          src={two}
           alt=""
         />
         <img
           className="absolute h-20 top-40 right-0 opacity-60"
-          src="src/assets/two.png"
+          src={two}
           alt=""
         />
         <img
           className="absolute h-40 top-100 -left-20 opacity-60"
-          src="src/assets/two.png"
+          src={two}
           alt=""
         />
         <img
           className="absolute h-20 top-90 left-35 opacity-60"
-          src="src/assets/two.png"
+          src={two}
           alt=""
         />
         <img
           className="absolute h-25 top-50 left-0 opacity-60"
-          src="src/assets/three.png"
-          alt=""
+          src={three}
+          alt="three"
         />
         <img
           className="absolute h-25 top-32 -left-13"
-          src="src/assets/man1.png"
-          alt=""
+          src={man}
+          alt="Man"
         />
       </div>
     </div>
