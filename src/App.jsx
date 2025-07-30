@@ -17,7 +17,6 @@ import group from "./assets/Group.png";
 import three from "./assets/three.png";
 import two from "./assets/two.png";
 
-// Animation Setup Functions
 const animateTextImages = (container) => {
   const imgs = container.querySelectorAll("img");
   const animations = [
@@ -164,32 +163,32 @@ const App = () => {
         <img
           className="absolute h-35 top-60 -left-30 opacity-60"
           src={two}
-          alt=""
+          alt="two"
         />
         <img
           className="absolute h-20 top-50 left-25 opacity-60"
           src={two}
-          alt=""
+          alt="two"
         />
         <img
           className="absolute h-20 top-80 left-25 opacity-60"
           src={two}
-          alt=""
+          alt="two"
         />
         <img
           className="absolute h-20 top-40 right-0 opacity-60"
           src={two}
-          alt=""
+          alt="two"
         />
         <img
           className="absolute h-40 top-100 -left-20 opacity-60"
           src={two}
-          alt=""
+          alt="two"
         />
         <img
           className="absolute h-20 top-90 left-35 opacity-60"
           src={two}
-          alt=""
+          alt="two"
         />
         <img
           className="absolute h-25 top-50 left-0 opacity-60"
