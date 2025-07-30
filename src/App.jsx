@@ -1,7 +1,6 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 
-// Asset Imports
 import hand from "./assets/hand.png";
 import stLogo from "./assets/stLogo.png";
 
